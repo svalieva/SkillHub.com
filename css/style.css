@@ -7,6 +7,17 @@
 }
 
 
+/** My code **/
+.zag{
+    font-size: 25px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+
+
+
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -462,6 +473,13 @@ h6,
     background-size: contain;
 }
 
+.partners_logo{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 40px;
