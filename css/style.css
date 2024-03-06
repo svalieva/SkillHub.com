@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #2124B1;
-    --secondary: #4777F5;
-    --light: #F7FAFF;
-    --dark: #1D1D27;
+    --primary: #1c1eaf;
+    --secondary: #4a7dff;
+    --light: #ffffff;
+    --dark: #21212c;
 }
 
 
@@ -14,8 +14,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
 }
-
-
 
 
 /*** Spinner ***/
@@ -111,7 +109,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-brand img {
@@ -319,7 +317,6 @@ h6,
     top: 0;
     left: 0;
     border-radius: 35px;
-    background: #DDDDDD;
     transition: .5s;
     z-index: -1;
 }
