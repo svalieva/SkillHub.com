@@ -93,13 +93,13 @@
                                     <div class="row g-3">
                                         <div class="col-md-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                                <input type="text" class="form-control" id="name" placeholder="Your Name" name="name">
                                                 <label for="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-floating">
-                                                <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                                <input type="email" class="form-control" id="email" placeholder="Your Email" name="email">
                                                 <label for="email">Your Email</label>
                                             </div>
                                         </div>
@@ -121,7 +121,7 @@
                                     </div>
                                 </form>
                                 <script>
-                                    const scriptURL = 'https://script.google.com/macros/s/AKfycbwCjhr1M83r5tT0Sjrdyk1KkqeV1KI6_WOSC2iFF4g-SsacRNk2S7scVOgV-MaMvULsOw/exec'
+                                    const scriptURL = 'https://script.google.com/macros/s/AKfycbwlmOYzn9_NsBcBX2FDwoyzQpI7TDBwtKCLh_LoEZ4yvuosMkj9tqjTalgVbuVUZmjh/exec'
                                     const form = document.forms['submit-to-google-sheet']
                                     form.addEventListener('submit', e => {
                                     e.preventDefault()
