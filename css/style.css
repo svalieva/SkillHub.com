@@ -15,6 +15,17 @@
     font-weight: 600;
 }
 
+.dur{
+    font-size: 20px;
+    color: #464545;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.g-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bi{
     font-size: 35px;
 }
