@@ -9,6 +9,12 @@
 
 /** My code **/
 .zag{
+    font-size: 18px;
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.ses{
     font-size: 25px;
     color: #000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
